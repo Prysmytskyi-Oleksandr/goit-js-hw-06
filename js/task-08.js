@@ -10,7 +10,7 @@ const { elements: { email, password } } = event.currentTarget;
     }
 
     
-    console.log(`email: ${email.value} password: ${password.value}`);
+    console.log(`{email: ${email.value} password: ${password.value}}`);
 
     formEl.reset();
 }
